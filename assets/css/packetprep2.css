@@ -1,0 +1,35 @@
+.company_list {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.company_list span {
+  margin: 3px 5px;
+}
+.company_list span:hover {
+  background: #00c9a7;
+  color: #fff !important;
+}
+/* scholorship test html styling */
+.question_pattern {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+.question_pattern td,
+.question_pattern thead {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.question_pattern tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.question_pattern thead tr {
+  background-color: rgba(35, 111, 177) !important;
+}
+
+.question_pattern tr:hover {
+  background-color: #ddd;
+}
